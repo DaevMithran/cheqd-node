@@ -23,6 +23,7 @@ var _ = Describe("MediaType", func() {
 			Entry("csv file", "testdata/resource.csv", "text/csv"),
 			Entry("dat file", "testdata/resource.dat", "application/octet-stream"),
 			Entry("json file", "testdata/resource.json", "application/json"),
+			Entry("json file", "testdata/statuslist.json", "application/json"),
 			Entry("pdf file", "testdata/resource.pdf", "application/pdf"),
 			Entry("png file", "testdata/resource.png", "image/png"),
 		)
